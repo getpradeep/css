@@ -3,21 +3,36 @@ body{
   margin:0;
 }
 .top-container{
-  background-color: #37E2D5;
+  background-color: #FAF7F0;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container{
-  background-color: #590696;
-  width: 200px;
-  height: 200px;
-}
 
+}
+.profile{
+  background-color: #CDFCF6;
+}
+.skills{
+  background-color: #BCCEF8;
+}
+.bio{
+  font-size: 20px;
+}
+.contact-me{
+  background-color: #CDFCF6;
+}
+.profiles-img{
+  border-radius: 50%;
+}
+.skills-img{
+  border-radius: 50%;
+}
+.skill-row-img{
+  border-radius: 50%;
+}
 .bottom-container{
-  background-color: #C70A80;
-  width: 200px;
-  height: 200px;
 }
 
 .pro{
@@ -25,8 +40,10 @@ body{
 }
 h1{
   color: #293462;
-  margin-top: 0;
-
+  width: 40%;
+  margin: auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
 }
 
 p{
@@ -35,10 +52,14 @@ p{
 
 .top-cloud{
   position: absolute;
-  right :30%;
+  right:100px;
   top: 100px;
 }
 
 .bottom-cloud{
   position:absolute;
+  left:300px;
+}
+
+.mountain{
 }
