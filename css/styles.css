@@ -15,7 +15,7 @@ body{
   background-color: #CDFCF6;
 }
 .skills{
-  background-color: #BCCEF8;
+
 }
 .bio{
   font-size: 20px;
@@ -26,11 +26,23 @@ body{
 .profiles-img{
   border-radius: 50%;
 }
-.skills-img{
-  border-radius: 50%;
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  line-height: 2;
 }
-.skill-row-img{
+.code-img{
+  width: 25%;
+  float: left;
   border-radius: 50%;
+  margin-right:30px;
+}
+.chilli-img{
+  width: 25%;
+  float: right;
+  border-radius: 50%;
+  margin-left: 60px;
 }
 .bottom-container{
 }
@@ -39,13 +51,28 @@ body{
   text-decoration: underline;
 }
 h1{
-  color: #293462;
-  width: 40%;
-  margin: auto;
+  color: #66BFBF;
+  width: 100px%;
+  margin: 50px auto 0 auto;
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 70px;
+  line-height: 2;
+}
+h2{
+  color: #66BFBF;
+  font-weight: normal;
 }
 
+h3{
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+.challenge{
+  font-size: 2.5rem;
+}
 p{
   color: #F24C4C;
 }
